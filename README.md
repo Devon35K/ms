@@ -13,8 +13,7 @@
 
 **MotionSmash** is an augmented reality (AR) mobile game for Android that uses your phone's front-facing camera and real-time computer vision to track your hand movements. Instead of tapping a screen, you physically smash falling virtual objects by moving your hand or a colored marker in front of the camera.
 
-Built as a partial fulfillment for **ICE 322 (Professional Elective 2)** and **ICE 323 (Professional Elective 3)** at the **University of Southeastern Philippines**.
-
+Built as a partial fulfillment for **ICE 322 (Professional Elective 2)** and **ICE 323 (Professional Elective 3)**
 ---
 
 ## 👥 Team
