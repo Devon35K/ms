@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Motion Smash</string>
+    <string name="title_motion_smash">Motion Smash</string>
+    <string name="btn_start_game">START GAME</string>
+    <string name="btn_calibrate">CALIBRATE</string>
+    <string name="status_ready">Ready to play?</string>
+    <string name="status_started">Game is starting...</string>
+    <string name="status_calibrating">Opening calibration...</string>
+</resources>
