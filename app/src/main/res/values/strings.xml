@@ -6,4 +6,11 @@
     <string name="status_ready">Ready to play?</string>
     <string name="status_started">Game is starting...</string>
     <string name="status_calibrating">Opening calibration...</string>
+
+    <!-- UI Activity Strings -->
+    <string name="title_dashboard">Game Dashboard</string>
+    <string name="label_high_score">Highest Score</string>
+    <string name="label_total_games">Total Games Played</string>
+    <string name="btn_back_to_menu">Back to Menu</string>
+    <string name="btn_ui_dashboard">DASHBOARD</string>
 </resources>

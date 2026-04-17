@@ -1,5 +1,6 @@
 package com.motionsmash;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -12,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView statusText;
     private Button startButton;
     private Button calibrateButton;
+    private Button dashboardButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         statusText = findViewById(R.id.statusText);
         startButton = findViewById(R.id.startButton);
         calibrateButton = findViewById(R.id.calibrateButton);
+        dashboardButton = findViewById(R.id.dashboardButton);
 
         // Start Game function
         startButton.setOnClickListener(v -> {
@@ -31,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
         // Calibrate function
         calibrateButton.setOnClickListener(v -> {
             startCalibration();
+        });
+
+        // Dashboard function
+        dashboardButton.setOnClickListener(v -> {
+            openDashboard();
         });
     }
 
@@ -44,5 +52,10 @@ public class MainActivity extends AppCompatActivity {
         statusText.setText(R.string.status_calibrating);
         Toast.makeText(this, "Opening Calibration...", Toast.LENGTH_SHORT).show();
         // Add logic to transition to calibration screen
+    }
+
+    private void openDashboard() {
+        Intent intent = new Intent(this, UIActivity.class);
+        startActivity(intent);
     }
 }

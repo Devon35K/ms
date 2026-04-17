@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ms">
         <activity
-            android:name=".MainActivity"
+            android:name="com.motionsmash.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.motionsmash.UIActivity"
+            android:exported="false"
+            android:label="@string/title_dashboard" />
     </application>
 
 </manifest>
